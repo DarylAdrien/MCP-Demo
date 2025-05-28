@@ -6,10 +6,13 @@ This project demonstrates the use of **MCP (Model Context Protocol)** to enable 
 
 **MCP (Model Context Protocol)** is an experimental protocol developed by GitHub to enable AI models (like Copilot) to interact with external tools and services in a secure and structured way.
 
+![mcp-logo](https://cdn.prod.website-files.com/67053868fc01e494462e71c9/67daad2ef3660093645d72ac_model-context-protocol-mcp-ai.jpg)
 ### 🧩 Components of MCP
 
 - **MCP Server**: A pre-built server (hosted by GitHub) that exposes tool interfaces and handles requests from clients using the MCP protocol.
 - **MCP Client**: An interface that allows models (such as Copilot) to interact with the MCP server. It sends tool invocations and receives structured responses.
+
+![mcp-architecture](https://miro.medium.com/v2/resize:fit:1400/1*LtZYdQvtDLzN4CwmlHvfFA.png)
 
 ## 📦 Demo Overview
 
@@ -21,6 +24,8 @@ In this demo, I used GitHub’s official MCP server and the Copilot-integrated c
 > **Repository Link**: [https://github.com/DarylAdrien/MCP-test](https://github.com/DarylAdrien/MCP-test.git)  
 
 The **MCP server** is provided in the `setting.json` file.
+
+![mcp-client](mcp-client.png)
 
 ## 🚀 How It Works
 
